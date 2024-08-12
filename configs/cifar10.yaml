@@ -1,0 +1,16 @@
+device: cuda:0
+num_workers: 10
+seed: 0
+batch_size: 128
+dataset: cifar10
+attack: wanet
+model: vit_tiny
+target_label: 0
+pratio: 0.1
+
+lr: 0.00002
+momentum: 0.9
+weight_decay: 0.00002
+epochs: 10
+interval: 10
+multi_gpu: False

@@ -1,0 +1,14 @@
+device: cuda:0
+num_workers: 6
+seed: 3407
+batch_size: 128
+defense_data: 250
+dataset: cifar10
+attack: badnet
+model: resnet_cifar
+target_label: 0
+
+lr: 0.0002
+lr_mask: 0.5
+penalty: 0.001
+epochs: 10

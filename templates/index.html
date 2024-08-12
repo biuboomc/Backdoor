@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<title>Repair - Computer & Phone Repair Landing Page Template</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="">
+	<meta name="description" content="Repair - Computer & Phone Repair Landing Page Template">
+	<!-- Google Fonts -->
+	<link href="static/css/css2.css" rel="stylesheet">
+	<!-- Favicon -->
+	
+	<!-- Site All Style Sheet Css -->
+	<link href="static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="static/css/font-awesome.min.css" rel="stylesheet">
+	<link href="static/css/themify-icons.css" rel="stylesheet">
+	<link href="static/css/magnific-popup.css" rel="stylesheet">
+	<link href="static/css/animate.min.css" rel="stylesheet">
+	<link href="static/css/owl.carousel.min.css" rel="stylesheet">
+	<link href="static/css/owl.theme.default.min.css" rel="stylesheet">
+	<!-- Site Main Style Sheet Css -->
+	<link href="static/css/style.css" rel="stylesheet">
+	<link href="static/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Start Preloader Area -->
+	<div class="preloader">
+		<div class="preloader-inner">
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- End Preloader Area -->
+    <!-- Start Header Navbar Area -->
+    <header class="header-navber-area">
+        <div class="nav-top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="call-to-action">
+                            <p><i class="icofont-envelope"></i> Email: <a href="mailto:quantumcgx@163.com">quantumcgx@163.com</a></p>
+                            <p><i class="icofont-phone"></i> Phone: <a href="tel:50530722233">+86 183-6019-6678</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+						<ul class="top-social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                        <div class="opening-hours">
+                            <p><i class="icofont-wall-clock"></i> Opening Hours : 8:30am - 10:30pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-b navbar-trans navbar-expand-lg" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll" href="">
+				<img src="static/image/logo.png" class="white-logo" alt="logo" width="200" height="60">
+				<img src="static/image/logo.png" class="black-logo" alt="logo" width="200" height="60">
+			</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link js-scroll active" href="#home">Home</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#services">Services</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#team">Team</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#review">Review</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#blog">Blog</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
+					</ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header Navbar Area -->
+
+	<!-- Start Home Section -->
+	<section id="home" class="home-area hero-equal-height section-padding">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-8 offset-lg-2 col-md-12">
+					<div class="home-content z-index position-relative">
+						<h3>We Can Fix Your Model</h3>
+						<h1>基于注意力图的VIT后门防御</h1>
+						<p>这是我们设计的VIT后门检测系统网站，在用户上传vit模型后，我们在后台可以通过进行触发器合成与改进后的注意力图扰动优化来实现后门检测，根据优化后的掩膜与attn的范数分布进行校验，同时基于与每个patch的吻合程度，进行后门模型的判断与后门目标标签的判定。</p>
+						<div class="home-button-box">
+							<a onclick="scrollToModule()" class="button home-btn-1 js-scroll">Upload and Detect</a>
+							<a onclick="scrollToModule()" class="button home-btn-2">Repair My Model</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Home Section -->
+	<!-- Mini Feature Section Start -->
+	<section id="mini-feature" class="mini-feature-area bg-gray pt-70 pb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single-mini-feature">
+						<div class="mini-feature-icon">	<i class="ti-stats-up"></i>
+						</div>
+						<div class="mini-feature-info">
+							<h6>更高效的剪枝方法</h6>
+							<p>为了消除后门影响，我们平台提供了基于“对抗性神经元剪枝”（ANP）方法实现的剪枝技术，支持用户进行后门消除。该方法通过剪枝对抗性神经元扰动下最敏感的神经元来清除植入的后门。无需触发器信息，只需少量干净数据即可有效工作，并且计算效率高，是一种简单而有效的模型修复方法。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single-mini-feature">
+						<div class="mini-feature-icon">	<i class="ti-user"></i>
+						</div>
+						<div class="mini-feature-info">
+							<h6>更安全的AI平台</h6>
+							<p>平台创新性地采用模型剪枝技术来消除深度学习模型中的后门攻击。
+通过精准识别并移除与后门攻击相关的神经元，我们有效提升了模型的鲁棒性和安全性。这种方法不仅减少了模型的计算负担，还确保了模型在处理干净数据时的准确性和可靠性，为用户提供了一个更安全、更高效的AI应用环境。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single-mini-feature">
+						<div class="mini-feature-icon">	<i class="ti-game"></i>
+						</div>
+						<div class="mini-feature-info">
+							<h6>更可靠的判定结果</h6>
+							<p>根据相应的合成优化的结果，提供了一种多角度的后门判定方法，从范数分布、攻击成功率变化与大小、与patch的匹配程度、是否均匀等角度，给出了四种警告等级，分别为无后门、有后门、显著后门风险与后门风险，给予用户可靠且鲜明的后门判定结果。
+</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single-mini-feature">
+						<div class="mini-feature-icon">	<i class="ti-money"></i>
+						</div>
+						<div class="mini-feature-info">
+							<h6>更广阔的应用前景</h6>
+							<p>事实上，在 MLaaS的大背景下，我们更希望个人用户在发现模型安全风险的情况下，向服务提供方要求必要的援助，而对于平台用户，在发现模型安全风险，需要对自己的数据、训练等环节进行筛查，实现全生命周期的安全控制。
+</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Mini Feature Section End -->
+
+
+	<!-- Start About Section -->
+	<section id="about" class="about-area bg-white section-padding">
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="about-image-wrapper">
+						<img src="static/image/process.png" alt="About image">
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="about-content">
+						<div class="about-content-text">
+							<h5>Who We Are</h5>
+							<h2>基于VIT后门检测系统和防御平台</h2>
+							<p><strong>首次</strong>提出了一种基于注意力机制的后门检测方法，专门针对ViT模型</p>
+							<p>实现了在后门模型与对抗模型在范数分布上的分离度，特征明显清晰可信，为后门模型的检测增加了置信度</p>
+							<h3>Why Trust Us?</h3>
+							<p><b>对于个人使用者，</b>可以通过上传模型或者接口以检验自己得到的VIT模型服务是否有后门存在。</p>
+							<p><b>对于平台建设者，</b>可以直接使用我们的系统专门用于对VIT模型的检测。</p>
+							<p>由此可见，我们的系统是对模型安全检测服务的完善与补充，提高了模型安全性。</p>
+
+							<a onclick="scrollToModule()" class="button">Try it now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Section -->
+
+	<!-- Start Choose Section -->
+	<section class="choose-area pt-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="choose-content">
+						<div class="choose-content-info">
+							<h2>We Can Fix Your Model</h2>
+							<p>为了消除后门影响，我们平台提供了基于“对抗性神经元剪枝”（ANP）方法实现的剪枝技术，支持用户进行后门消除。该方法通过剪枝对抗性神经元扰动下最敏感的神经元来清除植入的后门。它无需触发器信息，只需少量干净数据即可有效工作，并且计算效率高，是一种简单而有效的模型修复方法。
+							<p>同时，我们还提供了“重建性神经元剪枝”（RNP）的方法。RNP方法通过识别并移除模型中与后门攻击相关的神经元，从而净化模型，提高其安全性。该方法利用了重构误差和神经元重要性的评估来确定哪些神经元与后门攻击相关</p>
+
+							</div>
+						</div>
+					</div>
+<!--				<div class="col-lg-6 col-md-12 col-sm-12">-->
+<!--					<div class="choose-content-images">-->
+<!--						<img src="static/image/result.png" alt="choose images">-->
+<!--					</div>-->
+<!--				</div>-->
+			</div>
+		</div>
+	</section>
+	<!-- End Choose Section -->
+
+
+	<!-- Start Counter Section -->
+	<section class="counter-area section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 counter-item">
+					<div class="single-counter">
+						<div class="counter-contents">
+							<h2>
+								<span>mask↑ success↑</span>
+							</h2>
+							<h3 class="counter-heading">由于mask的范数足够大，在大扰动的前提下，我们的触发器很轻易就能实现成功的攻击，攻击成功率飞快上升至接近100%</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 counter-item">
+					<div class="single-counter">
+						<div class="counter-contents">
+							<h2>
+								<span>mask↓ success↓</span>
+							</h2>
+							<h3 class="counter-heading">基于对mask范数的正则化项，扰动的幅值快速降低，使得整体损失下降，但是在下降过程中，攻击成功率也会降低，更有甚者可能不足50%。</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 counter-item">
+					<div class="single-counter">
+						<div class="counter-contents">
+							<h2>
+								<span>mask↓ success↑</span>
+							</h2>
+							<h3 class="counter-heading">mask范数与攻击成功率对抗性的训练，使得训练损失下降。当该标签可能存在后门时，我们的优化可以很轻松的在令mask范数下降的同时保持较高的攻击成功率，如98%等</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 counter-item">
+					<div class="single-counter">
+						<div class="counter-contents">
+							<h2>
+								<span>”win-win“</span>
+							</h2>
+							<h3 class="counter-heading">当我们在干净标签或干净模型上进行优化时，相应的很难取得两类损失的“双赢”，往往不仅攻击成功率不高，其优化得到的mask范数也会居高不下，显著的差距为我们下面流程中的后门判断与识别提供了相当有力与清晰的证据。</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Counter Section -->
+
+
+	<!-- Start Contact Section -->
+	<section id="contact" class="contact-area section-padding">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="section-title">
+						<h2>Upload and Detect</h2>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row">
+				<!-- Upload Form for Model and Data -->
+				<div class="col-md-12 section">
+					<div id="upload-and-detect-module" class="upload-box">
+					  <form id="uploadForm" enctype="multipart/form-data" action="/upload" method="post">
+
+                        <label for="modelFile">Model File (.pth):</label>
+						<div class="form-group">
+						  <input type="file" class="form-control" id="modelFile" name="modelFile" accept=".pth" required>
+						</div>
+						<div class="col-md-12">
+						  <button type="submit" class="button">Submit</button>
+						</div>
+					  </form>
+					  <br>
+					  <div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+						  0%
+						</div>
+					  </div>
+						<h5>Please be patient, the detect process will take time</h5>
+					</div>
+				</div>
+
+				</div>
+			</div>
+
+
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="section-title">
+						<h2>Detect Result</h2>
+					</div>
+				</div>
+			</div>
+			<div id="result" style="display: none" class="row">
+				<div class="col-lg-5 col-md-12">
+					<div class="row contact-information">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="contact-info-title">
+								<h3>Detect Result</h3>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="contact-details">
+								<p>注意力层数：12</p>
+								<p>注意力头数量：3</p>
+								<p>Patch大小：16*16</p>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="contact-details">
+								<p id="meanAsr">平均攻击成功率：{{ mean_asr }}%</p>
+								<p id="meanValue">平均范数：{{ mean }} 标准差：{{ std }}</p>
+								<p id="minValue">最小范数：{{ min }} {{ compare }}</p>
+								<p id="statusWords">{{ words }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-12">
+					<img id="maskImage" src="{{ mask }}" alt="Mask Image">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact Section -->
+
+	<!-- Start Partner Logo Section -->
+    <div class="partner-area bg-gray">
+        <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title">
+						<h5>Now after the detection, obviously we need to fix the backdoor</h5>
+						<h2>Repair your model</h2>
+					</div>
+				</div>
+			</div>
+            <!-- RNP Repair Section -->
+        <div class="col-md-12 section">
+            <h2>剪枝修复与风险检测</h2>
+            <div class="upload-box">
+                <form id="RNPForm" enctype="multipart/form-data" action="/RNP" method="post">
+                    <div class="form-group">
+                        <label for="RNPModelFile">Pruning Model File (.pth):</label>
+                        <input type="file" class="form-control" id="RNPModelFile" name="RNPModelFile" accept=".pth" required>
+                    </div>
+                    <button id="RNP_button" onclick="RNP_repair()" type="submit" class="btn btn-primary">剪枝与检测 </button>
+                </form>
+                <br>
+<!--                <div class="progress">-->
+<!--                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">-->
+<!--                        0%-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div id="RNPResult" style="display:none;" class="result-box">
+                    <div>
+                        <h3>剪枝检测结果</h3>
+                        <p>剪枝修复后的模型状态</p>
+                        <!-- Add more content here -->
+                    </div>
+                    <img id="RNPMaskImage" src="{{ RNP_mask }}" alt="RNP Mask Image">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+	<!-- End Partner Logo Section -->
+
+
+
+	<!-- Start Footer Section -->
+	<footer class="footer-area">
+		<div class="footer-top-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 footer-box-item">
+						<div class="footer-content">
+							<img src="./static/image/logo.png" alt="Brand">
+<!--							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim.</p>-->
+							<ul class="footer-social">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 footer-box-item">
+						<div class="footer-content mid-content">
+							<h3>Usefull Link</h3>
+							<ul class="footer-link">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Terms & Condition</a></li>
+								<li><a href="#">Privecy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 footer-box-item">
+						<div class="footer-content">
+							<h3>Contact Us</h3>
+							<ul class="footer-link">
+								<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:503777505">+86 183-6019-6678</a></li>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:demo@example.com">quantumcgx@163.com</a></li>
+<!--								<li><i class="fa fa-home" aria-hidden="true"></i> CA 560 Bush St & 20th Ave, Canada.</li>-->
+							</ul>
+							<div class="subscribe-form-wrap">
+								<form action="#" class="subscribe-form">
+									<input type="email" name="email" class="form-input" placeholder="Enter Email">
+									<button type="submit" class="submit-btn">Subscribe</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-copyright text-center">
+							<p>Copyright &copy; 2023.Company name All rights reserved.<a target="_blank" href="https://www.toymoban.com/htmlmoban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+
+	<!-- Start Back to Top -->
+	<div class="back-to-top">
+		<i class="fa fa-caret-up"></i><i class="fa fa-caret-up"></i>
+	</div>
+	<!-- End Back to Top -->
+
+	<!-- Site All Jquery Js -->
+	<script src="static/js/jquery-3.6.0.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/plugins.js"></script>
+	<!--Site Main Custom Js-->
+	<script src="static/js/main.js"></script>
+
+<!-- 添加RNP修复模型的JavaScript函数 -->
+	<script>
+    function RNP_repair() {
+        // 阻止表单的默认提交行为
+        $('#RNPForm').on('submit', function(event) {
+            event.preventDefault();
+        });
+
+        // 发送POST请求到Flask的RNP修复模型的路由
+        $.ajax({
+            url: '/RNP', // Flask的RNP修复模型的路由
+            type: 'POST',
+            data: new FormData($('#RNPForm')[0]),
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                alert('RNP修复完成');
+                // 更新HTML页面以显示RNP修复的结果
+
+                $('#RNPResult').append(`
+                    <div class="alert alert-success" role="alert">
+                        ${data.message}<br>
+                        <a href="${data.mask_values_url}" download>点击这里下载 mask_values2.txt 文件</a>
+                    </div>
+                `);
+                $('#RNPResult').show();
+            },
+            error: function(xhr, status, error) {
+                alert('RNP修复失败：' + error);
+            }
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function() {
+        var Interval = null;
+        var currentAjaxRequest = null;
+        var intervalId = null
+        $('#uploadForm').on('submit', function(event) {
+            $('#result').hide();
+            event.preventDefault();
+            if (currentAjaxRequest) {
+                currentAjaxRequest.abort();
+                clearInterval(intervalId);
+            }
+
+            var formData = new FormData(this);
+
+            $.ajax({
+                url: '/upload', // 后端处理上传的URL
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(data) {
+                    $('#result').show();
+                    $('#meanAsr').text('平均攻击成功率: ' + data.mean_asr + '%');
+                    $('#meanValue').text('平均范数: ' + data.mean + ' 标准差: ' + data.std);
+                    $('#minValue').text('最小范数: ' + data.min + ' ' + data.compare);
+                    $('#statusWords').text(data.words);
+                    $('#comparison').text(data.compare);
+                    $('#maskImage').attr('src', data.mask);
+                    currentAjaxRequest = null;
+                },
+                error: function(xhr, status, error) {
+
+                    var errorData = JSON.parse(xhr.responseText);
+                    if (errorData.error === 'abort'){
+                        alert('上传请求已被中断, idx: ' + errorData.idx);
+                    }else{
+                        alert('上传文件出错：' + error);}
+                    clearInterval(intervalId);
+
+
+                }
+
+            });
+
+            // 开始轮询进度
+            intervalId = setInterval(function() {
+                $.ajax({
+                    url: '/get_progress',
+                    type: 'GET',
+                    success: function(progress) {
+                        $('.progress-bar').css('width', progress.percent + '%').attr('aria-valuenow', progress.percent).text(progress.percent + '%');
+                        if (progress.percent >= 100) {
+                            clearInterval(intervalId);
+                        }
+                    }
+                });
+
+            }, 1000);
+        });
+    });
+</script>
+
+<script>
+function scrollToModule() {
+  var module = document.getElementById('upload-and-detect-module');
+  var viewportTop = window.pageYOffset;
+  var viewportBottom = viewportTop + window.innerHeight;
+  var moduleTop = module.offsetTop;
+  var moduleBottom = moduleTop + module.offsetHeight;
+
+  if (moduleTop < viewportTop) {
+    module.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } else if (moduleBottom > viewportBottom) {
+    module.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  } else {
+    module.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+</script>
+
+
+</body>
+
+</html>
